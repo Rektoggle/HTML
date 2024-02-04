@@ -1,0 +1,71 @@
+      * {
+         font-size: 1em;
+         font-family: 'Satisfy', cursive;
+         color: gray;
+      }
+      body {
+         background-color: black;
+      }
+    
+    header {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    
+    header  a {
+    font-size: 1em;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    color: grey;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: whitesmoke;
+    border-radius: 2em;
+    }
+    header nav {
+        padding-left: 2em;
+    }
+    header h1  {
+        font-size: 1em;
+        font-family: 'Satisfy', cursive;
+        color: whitesmoke;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+     }
+    
+
+
+     aside{
+        font-size: 1em;
+        font-family: 'Satisfy', cursive;
+        color:white;
+        display:inline-block;
+        background-color: black;
+        height: 100vh;
+     }
+     aside a{
+        text-decoration: none;
+        color: white;
+        
+     }
+    
+     aside a:hover {
+        color: gray;
+        font-size: 1em;
+        font-family: 'Satisfy', cursive;
+        text-shadow: 3px 3px 3px white;
+        padding: 10px;
+        background-color: whitesmoke;
+        border-radius: 2em;
+     }
+
+     aside li {
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px ;
+        
+     }
